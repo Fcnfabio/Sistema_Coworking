@@ -214,5 +214,5 @@ Si este proyecto fue desarrollado en equipo, cada integrante puede registrar su 
 
 ## 9. Licencia y Contacto
 
-- Licencia: Fabio Capacho
+- Licencia: Fabio Capacho, Michael Santos, Nikolás Tolosa, Miguel Hernández
 - Contacto: fabiocapachom@gmail.com 
