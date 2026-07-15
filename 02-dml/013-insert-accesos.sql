@@ -3,9 +3,8 @@
 -- 80 accesos con diferentes escenarios
 -- =====================================================
 
--- Accesos APROBADOS - Entradas y Salidas (últimos 10 días)
-INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 -- Día 11 de julio (hoy) - Accesos de la mañana
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-11 08:30:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-11 09:00:00', 'RFID', 'Aprobado'),
 (3, 'Entrada', '2026-07-11 09:15:00', 'QR', 'Aprobado'),
@@ -15,9 +14,10 @@ INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado)
 (16, 'Entrada', '2026-07-11 10:00:00', 'QR', 'Aprobado'),
 (1, 'Salida', '2026-07-11 12:30:00', 'QR', 'Aprobado'),
 (2, 'Salida', '2026-07-11 13:00:00', 'RFID', 'Aprobado'),
-(3, 'Salida', '2026-07-11 17:30:00', 'QR', 'Aprobado'),
+(3, 'Salida', '2026-07-11 17:30:00', 'QR', 'Aprobado');
 
 -- Día 10 de julio
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-10 09:00:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-10 08:30:00', 'RFID', 'Aprobado'),
 (4, 'Entrada', '2026-07-10 10:00:00', 'QR', 'Aprobado'),
@@ -28,9 +28,10 @@ INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado)
 (17, 'Entrada', '2026-07-10 10:00:00', 'QR', 'Aprobado'),
 (1, 'Salida', '2026-07-10 18:00:00', 'QR', 'Aprobado'),
 (2, 'Salida', '2026-07-10 17:30:00', 'RFID', 'Aprobado'),
-(5, 'Salida', '2026-07-10 19:00:00', 'RFID', 'Aprobado'),
+(5, 'Salida', '2026-07-10 19:00:00', 'RFID', 'Aprobado');
 
 -- Día 9 de julio
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-09 09:00:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-09 08:45:00', 'RFID', 'Aprobado'),
 (3, 'Entrada', '2026-07-09 10:00:00', 'QR', 'Aprobado'),
@@ -41,9 +42,10 @@ INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado)
 (18, 'Entrada', '2026-07-09 09:30:00', 'QR', 'Aprobado'),
 (1, 'Salida', '2026-07-09 17:00:00', 'QR', 'Aprobado'),
 (2, 'Salida', '2026-07-09 18:00:00', 'RFID', 'Aprobado'),
-(5, 'Salida', '2026-07-09 18:30:00', 'RFID', 'Aprobado'),
+(5, 'Salida', '2026-07-09 18:30:00', 'RFID', 'Aprobado');
 
 -- Día 8 de julio
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-08 09:00:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-08 09:00:00', 'RFID', 'Aprobado'),
 (5, 'Entrada', '2026-07-08 08:30:00', 'RFID', 'Aprobado'),
@@ -53,9 +55,10 @@ INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado)
 (19, 'Entrada', '2026-07-08 14:00:00', 'QR', 'Aprobado'),
 (1, 'Salida', '2026-07-08 17:30:00', 'QR', 'Aprobado'),
 (2, 'Salida', '2026-07-08 17:00:00', 'RFID', 'Aprobado'),
-(5, 'Salida', '2026-07-08 18:00:00', 'RFID', 'Aprobado'),
+(5, 'Salida', '2026-07-08 18:00:00', 'RFID', 'Aprobado');
 
 -- Día 7 de julio
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-07 09:00:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-07 08:30:00', 'RFID', 'Aprobado'),
 (3, 'Entrada', '2026-07-07 09:30:00', 'QR', 'Aprobado'),
@@ -68,17 +71,20 @@ INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado)
 (17, 'Entrada', '2026-07-07 10:00:00', 'QR', 'Aprobado'),
 (1, 'Salida', '2026-07-07 18:00:00', 'QR', 'Aprobado'),
 (2, 'Salida', '2026-07-07 17:30:00', 'RFID', 'Aprobado'),
-(5, 'Salida', '2026-07-07 19:00:00', 'RFID', 'Aprobado'),
+(5, 'Salida', '2026-07-07 19:00:00', 'RFID', 'Aprobado');
 
--- Días anteriores (5, 4, 3, 2, 1 de julio) - Accesos variados
+-- Día 5 de julio
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-05 09:00:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-05 09:00:00', 'RFID', 'Aprobado'),
 (5, 'Entrada', '2026-07-05 08:30:00', 'RFID', 'Aprobado'),
 (13, 'Entrada', '2026-07-05 10:00:00', 'RFID', 'Aprobado'),
 (1, 'Salida', '2026-07-05 17:00:00', 'QR', 'Aprobado'),
 (2, 'Salida', '2026-07-05 18:00:00', 'RFID', 'Aprobado'),
-(5, 'Salida', '2026-07-05 18:30:00', 'RFID', 'Aprobado'),
+(5, 'Salida', '2026-07-05 18:30:00', 'RFID', 'Aprobado');
 
+-- Día 3 de julio
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-03 09:00:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-03 09:30:00', 'RFID', 'Aprobado'),
 (3, 'Entrada', '2026-07-03 10:00:00', 'QR', 'Aprobado'),
@@ -87,8 +93,10 @@ INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado)
 (16, 'Entrada', '2026-07-03 10:30:00', 'QR', 'Aprobado'),
 (1, 'Salida', '2026-07-03 17:30:00', 'QR', 'Aprobado'),
 (2, 'Salida', '2026-07-03 17:00:00', 'RFID', 'Aprobado'),
-(5, 'Salida', '2026-07-03 18:00:00', 'RFID', 'Aprobado'),
+(5, 'Salida', '2026-07-03 18:00:00', 'RFID', 'Aprobado');
 
+-- Día 1 de julio
+INSERT INTO accesos (usuario_id, tipo_acceso, fecha_hora, metodo_acceso, estado) VALUES
 (1, 'Entrada', '2026-07-01 09:00:00', 'QR', 'Aprobado'),
 (2, 'Entrada', '2026-07-01 08:30:00', 'RFID', 'Aprobado'),
 (5, 'Entrada', '2026-07-01 09:00:00', 'RFID', 'Aprobado'),
