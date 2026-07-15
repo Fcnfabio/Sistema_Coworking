@@ -205,12 +205,10 @@ También puedes ejecutar los scripts incluidos en la carpeta 08-roles-permisos p
 
 ## 8. Contribuciones
 
-Si este proyecto fue desarrollado en equipo, cada integrante puede registrar su participación aquí:
-
-- Nombre del integrante 1: diseño del modelo de datos y estructura DDL.
-- Nombre del integrante 2: carga de datos iniciales y scripts DML.
-- Nombre del integrante 3: consultas, funciones y procedimientos almacenados.
-- Nombre del integrante 4: triggers, eventos y control de permisos.
+- Fabio Capacho: diseño del modelo de datos y estructura DDL.
+- Michael Santos: carga de datos iniciales y scripts DML.
+- Nikolás Tolosa: consultas, funciones y procedimientos almacenados.
+- Miguel Hernández: triggers, eventos y control de permisos.
 
 ## 9. Licencia y Contacto
 
